@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.172;
     letter-spacing: 0.03em;
@@ -45,6 +45,7 @@ body {
 
   .wrapper {
     padding: 82px 390px 88px;
+    width: 1140px;
   }
 
   .news_list {
