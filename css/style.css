@@ -17,6 +17,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-size: 14px;
+    line-height: 1.172;
     letter-spacing: 0.03em;
   }
   
@@ -33,7 +34,7 @@ body {
   h1,
   h2,
   h3 {
-    color: var(--text-color-black);
+    color: black;
   }
   
   img {
@@ -42,5 +43,22 @@ body {
     height: auto;
   }
 
+  .wrapper {
+    padding: 82px 390px 88px;
+  }
 
+  .news_list {
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    grid-template-rows: repeat(2, 260px);
+    gap: 60px;
+    grid-auto-rows: 260px;
+  }
 
+  .news_img {
+    margin-bottom: 15px;
+  }
+
+  .news_text {
+    font-weight: 500;
+  }
