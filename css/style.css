@@ -2,7 +2,7 @@
 
 :root {
     --text-color-black: #212121;
-    --time-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   }
 
   /*color: var(--text-color-gray);*/
@@ -51,9 +51,9 @@ body {
   .news_list {
     display: grid;
     grid-template-columns: repeat(4, 240px);
-    grid-template-rows: repeat(2, 260px);
+    grid-template-rows: repeat(2, minmax(260px, auto));
     gap: 60px;
-    grid-auto-rows: 260px;
+    grid-auto-rows: minmax(260px, auto);
   }
 
   .news_img {
